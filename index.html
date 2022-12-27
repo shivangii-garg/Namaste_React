@@ -9,12 +9,21 @@
 <body>
     <!-- <h1 id="root">Namaste React</h1> -->
 <div id="root"></div>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <!-- Using JS -->
-<script>
+<!-- <script>
         let element = document.createElement("h1");
         element.innerHTML = "Namaste from JavaScript";
         let root = document.getElementById("root");
             root.appendChild(element);
+</script> -->
+
+<!-- Using React -->
+<script>
+    let element = React.createElement("h1", {}, "Namaste from React");
+    let root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(element);
 </script>
 </body>
 </html>
