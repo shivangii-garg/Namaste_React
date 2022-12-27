@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Namste React</title>
 </head>
 <body>
-    <h1>Namaste React</h1>
+    <!-- <h1 id="root">Namaste React</h1> -->
+<div id="root"></div>
+<!-- Using JS -->
+<script>
+        let element = document.createElement("h1");
+        element.innerHTML = "Namaste from JavaScript";
+        let root = document.getElementById("root");
+            root.appendChild(element);
+</script>
 </body>
 </html>
