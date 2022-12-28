@@ -1,0 +1,31 @@
+Ques1. What is Emmet?
+Ans. Emmet is a plugin inbuilt in VS code used to get code snippets of HTML and CSS using specific words. 
+
+Ques2. Difference between Library and Framework.
+Ans. Library is called inside our code and has less number of rules. Eg: JQuery and ReactJS
+     Framework calls the code and is bounded by rules. Eg: Spring, NodeJS, AngularJS VueJS etc.
+
+Ques3. What is CDN? Why do we use it?
+Ans. Content delivery network is group of servers spread accross different geographical locations worldwide to enable quick delivery of a website's content.
+     Benefits of CDN: 1. improves website page load time 2. Improves website security.
+     
+Ques4. Why is React known as React?
+Ans. React renders everything that is changing in the webpage constantly. The change being made depends upon the changes in the state of the application. 
+     So, reacting to every change in the state got React to be called React.
+    
+Ques5. What is crossorigin in script tag?
+Ans. Crossorigin attribute is used to set the mode of request to CORS (Cross origin resource sharing) request. Its purpose is to share the resources from one
+     domain to another domain. It is used to handle CORS request and checks if it is safe to share resources between domains.
+
+Ques6. Difference between React and ReactDOM.
+Ans. React is responsible for creating UIs and ReactDOM is responsible for rendering UI in browser.
+
+Ques8. What is async and defer?
+Ans. Async and defer are attributes of script tag used to specify how browser should handle the script when loading a page.
+     By Default: While parsing the HTML code when browser encounters script tag, it pauses the parsing, fetches the script from network and executes the script 
+                 then and there. Ince the script is executed after that browser resumes HTML parsing.
+
+     Using async attribute: While HTML parsing is going on, scripts are fetched from the network asynchronously, once scripts are fetched, HTML parsing pauses 
+                            and scripts are executed then and there and once the scripts are executed, HTML parsing resumes.
+                            
+     Using defer attribute: Feches the script while HTML parsing is going on but executes the script only when HTML parsing is finished.
